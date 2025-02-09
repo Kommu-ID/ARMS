@@ -1,0 +1,274 @@
+#prodBox {
+    background: radial-gradient(
+        circle,
+        rgba(70, 79, 80, 0.515),
+        rgba(69, 76, 79, 0.25) 80%,
+        rgba(71, 76, 94, 0.132) 100%
+    );
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.name {
+    font-size: 18px;
+    color: rgb(0, 102, 255);
+
+}
+
+.prodTitle {
+    font-size: 26px;
+}
+
+#card1F {
+    background: radial-gradient(
+        circle,
+        rgba(105, 108, 120, 0.515),
+        rgba(79, 76, 69, 0.25) 80%,
+        rgba(60, 56, 56, 0.6) 100%
+    );
+    box-shadow: 0 8px 32px 0 rgba(51, 51, 53, 0.37);
+    border-radius: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.422);
+    /* width: 85%; */
+    height: 26%;
+    padding: 4px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#content-oneF {
+    width: 85%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+}
+
+#title-oneF {
+    color: rgb(0, 102, 255);
+    font-weight: bold;
+}
+
+#desc-oneF {
+    text-align: start;
+    font-size: 12px;
+}
+
+.feed-block-first {
+    width: 25%;
+    height: 480px;
+    background: rgba(0, 0, 0, 0.378);
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 54, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-top: 3px solid rgba(255, 255, 255, 0.422);
+    border-left: 3px solid rgba(255, 255, 255, 0.422);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.342);
+    border-right: 2px solid rgba(0, 0, 0, 0.342);
+    border-radius: 38px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: auto;
+}
+
+.status {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.images {
+    width: 70px;
+    border-radius: 50%;
+    z-index: -100;
+    cursor: pointer;
+}
+
+.images-chat {
+    width: 60px;
+    border-radius: 50%;
+    z-index: -100;
+}
+
+.status-circle {
+    width: 74px;
+    background-image: url("/public/Profile Post.png");
+    background-size: cover;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.chats {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.feed-block-mid {
+    width: 35%;
+    height: 480px;
+    background: rgba(0, 0, 0, 0.378);
+    background-size: cover;
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 54, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-top: 3px solid rgba(255, 255, 255, 0.422);
+    border-left: 3px solid rgba(255, 255, 255, 0.422);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.342);
+    border-right: 2px solid rgba(0, 0, 0, 0.342);
+    border-radius: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 46px;
+    gap: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: auto;
+}
+
+.feedPerson {
+    width: 90%;
+    cursor: pointer;
+}
+
+.feeds {
+    width: 90%;
+    background: rgba(0, 0, 0, 0.378);
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+.personal-chat {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+.name,
+.msg {
+    text-align: start;
+}
+
+.msg {
+    font-size: 13px;
+}
+
+.feed-block-last {
+    width: 25%;
+    height: 480px;
+    background: rgba(0, 0, 0, 0.378);
+    box-shadow: 0 8px 32px 0 rgba(1, 1, 54, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-top: 3px solid rgba(255, 255, 255, 0.422);
+    border-left: 3px solid rgba(255, 255, 255, 0.422);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.342);
+    border-right: 2px solid rgba(0, 0, 0, 0.342);
+    border-radius: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: auto;
+}
+
+.top-earth-shadow {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: -100;
+    z-index: -100;
+}
+
+.posts-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.profile-pic {
+    width: 100px;
+    cursor: pointer;
+}
+
+.profile-name {
+    font-size: 26px;
+}
+
+.username {
+    color: #7aafff;
+}
+
+.intro {
+    font-size: 13px;
+}
+
+.social {
+    width: 120px;
+    cursor: pointer;
+}
+
+.feed-posts-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.feed-posts {
+    width: 110px;
+    cursor: pointer;
+}
+
+.inline-posts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
