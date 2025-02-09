@@ -21,22 +21,15 @@ function PlanetLast() {
 
             <hr />
             <div id="sound-sec">
+                <div className="head">Check our other demo here:</div>
                 <div>
-                    <img src="/Sound Icon.png" alt="sound" />
-                </div>
-                <div className="sound-waves">
-                    <div>Sound in Earth</div>
-                    <div className="playing">
-                        {[...Array(15)].map((_, idx) => (
-                            <div
-                                key={idx}
-                                className={`greenline line-${(idx % 5) + 1}`}
-                            ></div>
-                        ))}
-                    </div>
-                </div>
-                <div>
-                    <img src="/Play Icon.png" alt="sound" />
+                    <a className="link" target="_blank" href="https://huggingface.co/spaces/rehanafzal/ARMS">
+                        Demo 1
+                    </a>
+                    &nbsp; &nbsp; |&nbsp; &nbsp;
+                    <a className="link" target="_blank" href="https://huggingface.co/spaces/Afeefa123/ARMS-Project">
+                        Demo 2
+                    </a>
                 </div>
             </div>
         </>
