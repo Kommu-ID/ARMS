@@ -10,6 +10,18 @@
     border: 2px solid rgba(255, 255, 255, 0.422);
 }
 
+.head {
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: underline;
+}
+.link:hover {
+    text-decoration: underline;
+    color: rgb(0, 72, 255);
+}
+
 .status-container {
   display: flex;
   flex-direction: column;
